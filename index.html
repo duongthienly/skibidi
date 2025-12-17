@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .top-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+            align-items: center;
+        }
+        .left-side {
+            flex: 1;
+            min-width: 250px;
+            display: flex;
+            justify-content: center;
+        }
+        .left-side img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #eaeaea;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .right-side {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .intro-list {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+
+        .intro-list li {
+            margin-bottom: 10px;
+        }
+        .circle-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .circle-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            border-radius: 50%;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .circle-item:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+        .detailed-intro {
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+
+        .detailed-intro h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .extra-links {
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+        }
+
+        .extra-links a {
+            display: block;
+            margin-bottom: 10px;
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+            width: fit-content;
+        }
+
+        .extra-links a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="top-section">
+            
+            <div class="left-side">
+                <img src="anh.jpg">
+            </div>
+
+            <div class="right-side">
+                <ul class="intro-list">
+                    <li>Tôn danh: Lê Đức Thịnh</li>
+                    <li>Sinh niên: 2008</li>
+                    <li>An cư: Ninh Bình</li>
+                    <li>Chức phận: Môn đồ</li>
+                </ul>
+
+                <div class="circle-links">
+                    <a href="so-thich.html" class="circle-item">Sở thích</a>
+                    <a href="uoc-mo.html" class="circle-item">Ước mơ</a>
+                    <a href="dam-me.html" class="circle-item">Đam mê</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="detailed-intro">
+            <h3>Tự thuật sơ lược</h3>
+            <p>
+	      Tại hạ xin bái kiến chư vị.<br>
+	      Bản danh Lê Đức Thịnh, hiện theo học tại Lê Hồng Phong trung học chi đường.<br>
+              Thường nhật nhàn thì ngoạn túc cầu, tĩnh thì duyệt kiếm hiệp chi thư.<br>
+              Bình sinh hứng thú đàm luận võ học chi đạo, nguyện kết giao đồng hảo giả.<br>
+	      Tại hạ tin rằng Sơn bị gay.
+            </p>
+        </div>
+
+        <div class="extra-links">
+            <a href="https://www.facebook.com/vu.ngoc.son.604887">Vũ Ngọc Sơn</a>
+            <a href="http://facebook.com/quang.tran.1301">Trần Minh Quang</a>
+            <a href="https://www.facebook.com/Cristiano">Cristiano Ronaldo</a>
+        </div>
+    </div>
+
+</body>
+</html>

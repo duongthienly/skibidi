@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tâm huyết sở tại</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 30px; line-height: 1.6; background-color: #f9f9f9; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+        h1 { color: #e74c3c; }
+        .back-btn { display: inline-block; margin-top: 20px; text-decoration: none; color: #555; border: 1px solid #ddd; padding: 8px 15px; border-radius: 4px; }
+        .back-btn:hover { background-color: #eee; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tâm huyết</h1>
+        <p>Những điều khiến tại hạ sinh lòng hứng khởi, tràn đầy sinh khí:</p>
+        <ul>
+            <li>Võ học anh kiệt chi truyện.</li>
+            <li>Cơ khải tinh xảo.</li>
+            <li>Âm khúc du dương, ý vị thâm trầm.</li>
+        </ul>
+        <a href="index.html" class="back-btn">← Quay lại trang chủ</a>
+    </div>
+</body>
+</html>
