@@ -20,19 +20,19 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             border-radius: 8px;
         }
-        .top-section {
+        .dau {
             display: flex;
             gap: 30px;
             margin-bottom: 30px;
             align-items: center;
         }
-        .left-side {
+        .trai {
             flex: 1;
             min-width: 250px;
             display: flex;
             justify-content: center;
         }
-        .left-side img {
+        .trai img {
             width: 250px;
             height: 250px;
             border-radius: 50%;
@@ -40,28 +40,28 @@
             border: 5px solid #eaeaea;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        .right-side {
+        .phai {
             flex: 2;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
-        .intro-list {
+        .intro {
             list-style-type: disc;
             padding-left: 20px;
             margin-bottom: 30px;
             font-size: 18px;
         }
 
-        .intro-list li {
+        .intro li {
             margin-bottom: 10px;
         }
-        .circle-links {
+        .hinhtron {
             display: flex;
             gap: 20px;
         }
 
-        .circle-item {
+        .tron {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -75,27 +75,27 @@
             text-align: center;
             transition: background-color 0.3s, transform 0.2s;
         }
-        .circle-item:hover {
+        .tron:hover {
             background-color: #2980b9;
             transform: scale(1.05);
         }
-        .detailed-intro {
+        .intross {
             border-top: 2px solid #eee;
             padding-top: 20px;
             margin-bottom: 30px;
             text-align: justify;
         }
 
-        .detailed-intro h3 {
+        .intross h3 {
             margin-top: 0;
             color: #2c3e50;
         }
-        .extra-links {
+        .linkfb {
             border-top: 2px solid #eee;
             padding-top: 20px;
         }
 
-        .extra-links a {
+        .linkfb a {
             display: block;
             margin-bottom: 10px;
             color: #e74c3c;
@@ -104,38 +104,88 @@
             width: fit-content;
         }
 
-        .extra-links a:hover {
+        .linkfb a:hover {
             text-decoration: underline;
         }
-
+        .anh2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+        .anh3 {
+    flex: 1;
+    max-width: 48%;
+}
+        .anh3 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+        .anh3 img:hover {
+    transform: scale(1.02);
+}
+        .vid2 {
+    position: relative;
+    padding-bottom: 56.25%; /* Tỷ lệ 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 12px; /* Bo tròn góc video */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-bottom: 40px;
+}
+.vid2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+    .anh2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .anh3 {
+        max-width: 100%;
+    }
+    .anh3 img {
+        height: auto;
+        max-height: 400px
+}
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="top-section">
+        <div class="dau">
             
-            <div class="left-side">
+            <div class="trai">
                 <img src="anh.jpg">
             </div>
 
-            <div class="right-side">
-                <ul class="intro-list">
+            <div class="phai">
+                <ul class="intro">
                     <li>Tôn danh: Lê Đức Thịnh</li>
                     <li>Sinh niên: 2008</li>
                     <li>An cư: Ninh Bình</li>
                     <li>Chức phận: Môn đồ</li>
                 </ul>
 
-                <div class="circle-links">
-                    <a href="so-thich.html" class="circle-item">Sở thích</a>
-                    <a href="uoc-mo.html" class="circle-item">Ước mơ</a>
-                    <a href="dam-me.html" class="circle-item">Đam mê</a>
+                <div class="hinhtron">
+                    <a href="so-thich.html" class="tron">Sở thích</a>
+                    <a href="uoc-mo.html" class="tron">Ước mơ</a>
+                    <a href="dam-me.html" class="tron">Đam mê</a>
                 </div>
             </div>
         </div>
 
-        <div class="detailed-intro">
+        <div class="intross">
             <h3>Tự thuật sơ lược</h3>
             <p>
 	      Tại hạ xin bái kiến chư vị.<br>
@@ -145,8 +195,19 @@
 	      Tại hạ tin rằng Sơn bị gay.
             </p>
         </div>
+<div class="anh2">
+    <div class="anh3">
+        <img src="anh1.jpg" alt="anh1">
+    </div>
+    <div class="anh3">
+        <img src="anh2.jpg" alt="anh2">
+    </div>
+</div>
 
-        <div class="extra-links">
+<div class="vid2">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zdD9RsNdDTE?si=TXYa_hsIcVVsxfIJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+        <div class="linkfb">
             <a href="https://www.facebook.com/vu.ngoc.son.604887">Vũ Ngọc Sơn</a>
             <a href="http://facebook.com/quang.tran.1301">Trần Minh Quang</a>
             <a href="https://www.facebook.com/Cristiano">Cristiano Ronaldo</a>
